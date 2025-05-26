@@ -1,0 +1,54 @@
+// main.scss
+@import 'variables';
+@import 'mixins';
+@import 'base';
+
+// Estilos adicionales globales
+body {
+  color: $secondary-color;
+  margin: 0;
+  padding: 0;
+}
+
+// Estilos del header
+header {
+  background-color: $primary-color;
+  color: white;
+  padding: $spacing;
+  text-align: center;
+}
+
+// Estilos de las cards en los destinos
+.card {
+  margin-bottom: $spacing;
+  border-radius: 8px;
+  @include transition(all, 0.3s);
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.card {
+  margin-bottom: $spacing;
+  border-radius: 8px;
+  @include transition(all, 0.3s);
+  
+  &:hover {
+    transform: scale(1.05);
+    animation: fadeIn 0.5s ease-in;
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: $font-size-lg;
+  }
+  .card {
+    margin-bottom: 1.5rem;
+  }
+}
