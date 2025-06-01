@@ -8,3 +8,23 @@
     "sass": "sass scss/main.scss css/estilos.css --watch"
   }
 }
+
+
+
+{
+  
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss/style.scss:css/style.css"
+  },
+
+  },
+  "keywords": [],
+
+
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.6"
+  }
+}
