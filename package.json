@@ -1,15 +1,3 @@
-{
-  "name": "turi-mar",
-  "version": "1.0.0",
-  "devDependencies": {
-    "sass": "^1.89.0"
-  },
-  "scripts": {
-    "sass": "sass scss/main.scss css/estilos.css --watch"
-  }
-}
-
-
 
 {
   
@@ -19,12 +7,18 @@
     "sass": "sass --watch scss/style.scss:css/style.css"
   },
 
-  },
   "keywords": [],
 
+  "devDependencies": {
+
+    "sass": "^1.89.0"
 
   },
-  "dependencies": {
-    "bootstrap": "^5.3.6"
+
+  "scripts": {
+
+    "sass": "sass scss/main.scss css/estilos.css --watch"
+
   }
-}
+
+} 
