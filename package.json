@@ -1,9 +1,8 @@
 {
   "devDependencies": {
     "sass": "^1.89.0"
+  },
+  "scripts": {
+    "sass": "sass scss/main.scss css/estilos.css --watch"
   }
-}
-
-"scripts": {
-  "sass": "sass scss/main.scss css/estilos.css --watch"
 }
