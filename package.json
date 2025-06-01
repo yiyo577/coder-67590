@@ -1,4 +1,6 @@
 {
+  "name": "turi-mar",
+  "version": "1.0.0",
   "devDependencies": {
     "sass": "^1.89.0"
   },
